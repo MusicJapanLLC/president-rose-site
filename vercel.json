@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/president-rose-special-site.html" }
+  ],
+  "redirects": [
+    { "source": "/home", "destination": "/#/home", "permanent": false },
+    { "source": "/about", "destination": "/#/about", "permanent": false },
+    { "source": "/works", "destination": "/#/works", "permanent": false },
+    { "source": "/plans", "destination": "/#/plans", "permanent": false },
+    { "source": "/contact", "destination": "/#/contact", "permanent": false }
+  ]
+}
