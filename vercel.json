@@ -1,12 +1,1 @@
-{
-  "rewrites": [
-    { "source": "/", "destination": "/president-rose-special-site.html" }
-  ],
-  "redirects": [
-    { "source": "/home", "destination": "/#/home", "permanent": false },
-    { "source": "/about", "destination": "/#/about", "permanent": false },
-    { "source": "/works", "destination": "/#/works", "permanent": false },
-    { "source": "/plans", "destination": "/#/plans", "permanent": false },
-    { "source": "/contact", "destination": "/#/contact", "permanent": false }
-  ]
-}
+{"$schema":"https://openapi.vercel.sh/vercel.json","rewrites":[{"destination":"/president-rose-special-site.html","source":"/"},{"destination":"/president-rose-special-site.html","source":"/home"},{"destination":"/president-rose-special-site.html","source":"/about"},{"destination":"/president-rose-special-site.html","source":"/works"},{"destination":"/president-rose-special-site.html","source":"/plans"},{"destination":"/president-rose-special-site.html","source":"/contact"}]}

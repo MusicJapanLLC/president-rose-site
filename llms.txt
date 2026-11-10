@@ -1,0 +1,15 @@
+# President Rose
+
+> President Rose is the overseas-facing special site of Music Japan LLC, presenting President Rose — a five-year-old president who runs the front desk — and her AI receptionist, podcast, and short-form video services, in English.
+
+## Pages
+
+- [Home](https://president-rose-site.vercel.app/): Overview of President Rose and the front desk services (AI receptionist, podcast, shorts), with pricing teasers.
+- [About](https://president-rose-site.vercel.app/about): About the President — why a five-year-old runs the front desk, and Meet the Cabinet.
+- [Works](https://president-rose-site.vercel.app/works): Works & Services — AI Receptionist, short-form video, and podcast services, and how the front desk works.
+- [Plans](https://president-rose-site.vercel.app/plans): Plans & Pricing — $9 Value Pack ($9, one-time, delivered in 24 hours, fully credited toward the Pilot), $49 Demo, $497 Pilot, and Full Front Desk ($1,497+ plus $497/mo).
+- [Contact](https://president-rose-site.vercel.app/contact): Contact the Office — how to hire President Rose's front desk.
+
+## Organization
+
+- Music Japan LLC (official site): https://music-japan.com/en
