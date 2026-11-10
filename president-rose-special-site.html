@@ -475,6 +475,11 @@
   .dm-card .dm-word{font-size:clamp(30px,4.6vw,44px); font-weight:900; letter-spacing:.06em; color:var(--gold); font-stretch:112%; position:relative}
   .dm-card p{margin:0; color:var(--muted); flex:1; min-width:220px; position:relative}
   .dm-card .btn{position:relative}
+  .email-card{padding:28px 30px; margin-top:22px; border-color:var(--gold); box-shadow:0 0 0 1px var(--gold), 0 24px 60px rgba(212,175,55,.14)}
+  .email-card .e-label{font-family:var(--font-m); font-size:11px; letter-spacing:.34em; text-transform:uppercase; color:var(--gold); display:block; position:relative; margin:0 0 10px}
+  .email-card .e-addr{display:inline-flex; align-items:center; min-height:44px; font-size:clamp(19px,2.6vw,26px); font-weight:800; letter-spacing:.01em; color:var(--paper); text-decoration:none; position:relative; word-break:break-all; line-height:1.2}
+  .email-card .e-addr:hover{color:var(--gold-soft); text-decoration:underline; text-decoration-color:var(--gold-dim); text-underline-offset:4px}
+  .email-card p{margin:8px 0 0; color:var(--muted); font-size:15px; position:relative}
 
   /* ---------- Closing / footer ---------- */
   .closing{text-align:center; padding:140px 0 120px}
@@ -1140,6 +1145,11 @@
           <div class="next-item"><span class="n-no">03</span><div><h3>Demo first, always</h3><p>You hear your own receptionist before any big decision. $49, credited toward the pilot. Presidents audition their hires; so should you.</p></div></div>
         </div>
         <p class="skip-line" data-reveal>Rather skip the chat? <a class="btn-sm magnetic" href="https://buy.stripe.com/6oUaEW4ROcnAb0sbzm4800t" target="_blank" rel="noopener" data-cursor="Get the pack">Start with the $9 Value Pack →</a></p>
+        <div class="email-card glass" data-reveal>
+          <span class="e-label">EMAIL THE OFFICE</span>
+          <a class="e-addr magnetic" href="mailto:money.funds.2026@gmail.com" data-cursor="Email Rose">money.funds.2026@gmail.com</a>
+          <p>write to the president — the office answers.</p>
+        </div>
         <div class="dm-card glass" data-reveal>
           <span class="dm-word">“MISSED”</span>
           <p>Fastest route: DM that one word on Instagram and the office knows exactly why you’re here.</p>
