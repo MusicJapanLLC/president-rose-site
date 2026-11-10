@@ -385,7 +385,11 @@
   .buy-strip .bs-note{font-weight:600}
   .buy-strip .btn-bs{flex:none; display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:10px 22px; border-radius:999px; background:#0a1633; color:var(--gold-soft); font-weight:800; font-size:14.5px; text-decoration:none; border:1px solid #0a1633}
   .buy-strip .btn-bs:hover{background:#13255c; color:#fff}
-  @media (max-width:640px){ .buy-strip .bs-in{padding:14px 20px} .buy-strip .btn-bs{width:100%} }
+  .buy-strip .bs-buy{flex:none; display:flex; flex-direction:column; gap:8px; max-width:360px}
+  .pay-note{margin:0; font-size:12.5px; line-height:1.55; color:var(--gold-soft); text-align:center}
+  .buy-strip .pay-note{background:#0a1633; border-radius:10px; padding:7px 12px}
+  .plan .pay-note{margin-top:10px; position:relative}
+  @media (max-width:640px){ .buy-strip .bs-in{padding:14px 20px} .buy-strip .btn-bs{width:100%} .buy-strip .bs-buy{width:100%; max-width:none} }
 
   /* ---------- Plans ---------- */
   .plans-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:22px; margin-top:16px; align-items:stretch}
@@ -580,7 +584,10 @@
   <div class="buy-strip" role="region" aria-label="The $9 Value Pack">
     <div class="bs-in">
       <p class="bs-label"><b>THE $9 VALUE PACK</b> — missed-call audit · a greeting in your name · google profile checkup · 12 review replies · 30-day fix list — <span class="bs-note">delivered in 24 hours, fully credited toward the pilot</span></p>
-      <a class="btn-bs magnetic" href="https://buy.stripe.com/6oUaEW4ROcnAb0sbzm4800t" target="_blank" rel="noopener" data-cursor="Get the pack">Get the pack — $9</a>
+      <span class="bs-buy">
+        <a class="btn-bs magnetic" href="https://buy.stripe.com/6oUaEW4ROcnAb0sbzm4800t" target="_blank" rel="noopener" data-cursor="Get the pack">Get the pack — $9</a>
+        <span class="pay-note">one tap with apple pay or google pay — no forms, no card typing. cheaper than one missed customer.</span>
+      </span>
     </div>
   </div>
 
@@ -994,6 +1001,7 @@
           </ul>
           <p class="p-guarantee">Find less than $90 in recoverable revenue? <b>It’s free.</b></p>
           <a class="btn btn-gold magnetic" href="https://buy.stripe.com/6oUaEW4ROcnAb0sbzm4800t" target="_blank" rel="noopener" data-cursor="Get the pack">Get the pack — $9</a>
+          <p class="pay-note">one tap with apple pay or google pay — no forms, no card typing. cheaper than one missed customer.</p>
         </article>
         <article class="plan glass" data-reveal>
           <span class="p-tag">Step 01 — Hear yours</span>
